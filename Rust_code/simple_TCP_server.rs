@@ -13,9 +13,7 @@ fn handle_client(mut stream: TcpStream) {
                 }
                 let message = String::from_utf8_lossy(&buffer[..bytes_read]);
                 println!("Received message: {}", message);
-
                 // Process message (encryption, authentication, etc.)
-
                 // Echo the message back to the client
                 stream.write_all(&buffer[..bytes_read]).unwrap();
             }
