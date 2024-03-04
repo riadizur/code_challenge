@@ -1,8 +1,8 @@
 # Add Devise to your Gemfile
-gem 'devise'
+gem install devise
 
 # Install Devise
-bundle install
+# bundle install
 
 # Generate Devise views and models
 rails generate devise:install
