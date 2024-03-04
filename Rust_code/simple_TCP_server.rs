@@ -5,7 +5,6 @@ use std::thread;
 
 fn handle_client(mut stream: TcpStream) {
     let mut buffer = [0; 1024];
-    
     loop {
         match stream.read(&mut buffer) {
             Ok(bytes_read) => {
