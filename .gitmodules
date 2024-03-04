@@ -1,0 +1,3 @@
+[submodule "Ruby_code/Ruby_code/ruby_app"]
+	path = Ruby_code/Ruby_code/ruby_app
+	url = https://github.com/riadizur/code_challenge.git
